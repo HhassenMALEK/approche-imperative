@@ -2,26 +2,23 @@ package fr.declaration.variable;
 
 public class DeclarationApp {
     public static void main (String[] args){
-        byte a = 12;
-        short b = 30625;
-        int c = 12500415;
-        long d = 3000000L;
-        float e = 1500000000000000030F;
-        double f =22000000000000000000000000000000000000000000000000000000000.5D;
-        char g = 'c';
-        boolean h = false;
-        String i = "Couou";
-        String randomString = "Voici le résultat d’un calcul : 1+5=6";
+        byte ent1 = 12;
+        short ent2 = 30625;
+        int ent3 = 10000000;
+        long ent4 = 321_578_000L;
+        float reel1 = 1500000000000000030F;
+        double reel2 =22000000000000000000000000000000000000000000000000000000000.5D;
+        char chr = 'c';
+        boolean booleen = false;
+        String Str = "Couou";
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
-        System.out.println(i);
+
+
+
+        System.out.println(ent4);
+        System.out.println(booleen);
+
+        String randomString = "Voici le résultat d’un calcul :\n 1+5=6";
         System.out.println(randomString);
     }
 }
